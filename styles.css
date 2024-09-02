@@ -121,7 +121,7 @@ section h2 {
     position: relative;
     width: 50vw;
     top: 0;
-    overflow: inherit;
+    overflow: none;
 }
 
 .subContainer01 img {
