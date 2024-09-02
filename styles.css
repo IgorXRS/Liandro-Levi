@@ -571,9 +571,8 @@ video {
         background: #000a29;
         position: absolute;
         /* Para poder posicionar dentro do contêiner */
-        left: 0;
-        transform: translateY(45vh);
         z-index: 3;
+        transform: translateY(430px);
     }
 
     .music {
@@ -660,6 +659,46 @@ video {
         width: 250px;
         z-index: 2;
         transform: translateY(-50px);
+    }
+
+}
+
+
+@media (min-width: 800px) {
+    .fotos1,
+    .fotos2 {
+        width: 300px;
+        height: 200px;
+    }
+
+    .fotos2 {
+        width: 300px;
+        height: 200px;
+    }
+
+    .fotos1:hover {
+        width: 350px;
+        height: 250px;
+    }
+
+    .fotos2:hover {
+        width: 350px;
+        height: 200px;
+    }
+
+    .blocoFoto {
+        width: 300px;
+        height: 200px;
+    }
+
+
+    .blocoFoto:hover {
+        width: 330px;
+        height: 200px;
+    }
+
+    .contact>.container2>p {
+        max-width: 600px;
     }
 
 }
