@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liandro Levi - Cantor, Compositor e Vídeo Maker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="particles-js" class="particles-js"></div>
+    <button id="toggle-stars-btn" class="toggle-stars-btn">
+        <i id="stars-icon" class="bi bi-stars"></i>
+    </button>
+    <div class="principal">
+        <div id="play"></div>
+        <header>
+            <div class="container">
+
+                <img src="/img/02.png" placeholder="Liandro Levi" />
+                <div id="blurEfect"></div>
+                <div class="elements">
+                    <div id="element02"></div>
+                    <div id="element03"></div>
+                </div>
+                <img id="logoheader" src="/img/logotipo.png" placeholder="Liandro Levi" />
+                <p id="subtituloPrincipal">Cantor, Compositor e Vídeo Maker</p>
+                <div class="btnPadrao"><button
+                        onclick="window.open('https://open.spotify.com/intl-pt/track/0tlsUNERQgF6x9esexm6Ep?si=BHNuC24OSWCs8gekPcj9kg&nd=1&dlsi=18db0f6157bb4fab', '_blank')">Spotify</button>
+                </div>
+                <div class="btnPadrao"><button>WhatsApp</button></div>
+                <div class="btnPadrao"><button
+                        onclick="window.open('https://www.instagram.com/mcliandro/', '_blank')">Instagram</button></div>
+                <div class="btnPadrao"><button
+                        onclick="window.open('https://www.youtube.com/@LiandroLevi', '_blank')">YouTube</button></div>
+            </div>
+        </header>
+
+        <section class="bio" id="bio">
+            <div class="containerBio">
+                <div class="subContainer01">
+                    <img id="img02" src="/img/01.png" placeholder="Liandro Levi" />
+                </div>
+                <div class="subContainer02">
+                    <div class="tituloSobre">
+                        <h3>Quem é </h3>
+                        <h2>Liandro Levi?</h2>
+                    </div>
+                    <p> É um artista Goiano, nascido em Formosa-GO em 1992. Começou sua carreira aos 14 anos,
+                        quando foi convidado a participar da companhia de dança <span>"Os Donos da Noite"</span>. Após
+                        sua saída,
+                        administrou o grupo <span>"Swing Tentação"</span>, que mais tarde se tornou <span>"Bonde
+                            Piração"</span>. O grupo viajou o
+                        país levando o funk a várias cidades do Brasil e foi destaque em 2013 ao receber a premiação
+                        <span>Brasília Top Show</span> na Rede TV. Em 2014, com a saída de MC Leandrinho, o grupo chegou
+                        ao fim. Três anos depois, em 2017, nasceu
+                        <span>Liandro Levi</span> em projeto solo, continuando sua trajetória no funk.
+                    </p>
+                </div>
+                <div class="barra"></div>
+            </div>
+        </section>
+
+        <section class="music" id="music">
+            <div class="container">
+                <div class="player">
+                    <button id="prev"><i class="bi bi-arrow-left-circle"></i></button>
+                    <button id="playPause"><i class="bi bi-play"></i></button>
+                    <button id="next"><i class="bi bi-arrow-right-circle"></i></button>
+                </div>
+                <audio preload="auto" id="audioPlayer" src="/music/bem-melhor-que-ontem.mp3"></audio>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="fotos1">
+                <div class="blocoFoto">
+                    <video controls>
+                        <source src="/music/Bem Melhor Que ontem - Lz Mc feat Liandro Levi [ VIDEO IA Oficial ].mp4" type="video/mp4">
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                </div>
+            </div>
+            <div class="container2">
+                <p> Em menos de 9 meses de carreira
+                    solo, foi chamado para participar de programas de TV como o <span>Programa do Ratinho</span> no SBT, <span>Lucimara
+                    Parisi</span> na Rede Brasil e <span>Conexão com Zé Américo</span> na Rede CNT.
+                </br></br>
+                    Hoje suas músicas estão em todas as plataformas digitais, somando mais de <span>80 milhões de plays</span> no
+                    SoundCloud e viralizando em várias redes sociais, incluindo TikTok e YouTube. <span>Liandro</span> acredita que,
+                    através de sua música, ele pode levar <span>alegria</span> às pessoas e mostrar que tudo é possível com <span>fé</span>.</p>
+            </div>
+            <div class="fotos2">
+                <div class="blocoFoto">
+                    <video controls>
+                        <source src="/music/Liandro Levi - O DESAFIO  [ Funk do Goias ].mp4" type="video/mp4">
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+                </div>
+            </div>
+            </div>
+        </section>
+    </div>
+
+    <button id="backToTopBtn"><i class="bi bi-arrow-up"></i></button>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 DEVIX. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
