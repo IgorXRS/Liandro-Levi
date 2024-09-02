@@ -9,6 +9,7 @@ body {
     color: #333;
     line-height: 1.6;
     background: linear-gradient(45deg, #020e18, #001120);
+    min-width: 100vw;
 }
 
 body::-webkit-scrollbar {
