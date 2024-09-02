@@ -8,7 +8,7 @@
 body {
     color: #333;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background: linear-gradient(45deg, #020e18, #001120);
 }
 
 body::-webkit-scrollbar {
@@ -137,7 +137,6 @@ section h2 {
     background: #00061696;
     transform: translateY(-860px);
     padding-top: 20px;
-    margin-right: 30px;
     width: 100vw;
     top: 0;
     color: rgb(255, 255, 255);
